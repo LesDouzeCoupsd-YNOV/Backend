@@ -19,6 +19,23 @@ db.exec(`
     );
 `);
 
+// Célébrités
+const insertCeleb = db.prepare(
+    `INSERT OR IGNORE INTO "Célébrités" (CélébritéID, Name) VALUES (?, ?)`
+);
+const celebs = [
+    "Joe Keery",
+    "Michael B Jordan",
+    "Lewis Hamilton",
+    "Louis de Funès",
+    "Margot Robbie",
+    "Marion Cotillard",
+    "Pedro Pascal",
+    "Rafael Nadal",
+    "Theodora"
+];
+celebs.forEach((name, i) => insertCeleb.run(i + 1, name));
+
 const insertQuestion = db.prepare(
     `INSERT OR IGNORE INTO "Questions" (QuestionID, Name, RéponseID) VALUES (?, ?, ?)`
 );
