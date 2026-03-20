@@ -64,7 +64,7 @@ insertReponse.run(10, "Decide", 3);
 insertReponse.run(11, "The Crux", 3);
 insertReponse.run(12, "End of Beginning", 3);
 
-// Question 4 - Bonne réponse : "Ryan Gosling" (ID 13)
+// Question 4 - Bonne réponse : "Léonardo Dicaprio" (ID 13)
 insertQuestion.run(4, "Qui récemment a été décrit comme le roi des mèmes ?", 14);
 insertReponse.run(13, "Ryan Gosling", 4);
 insertReponse.run(14, "Léonardo Dicaprio", 4);
@@ -176,7 +176,7 @@ insertReponse.run(74, "1800", 19);
 insertReponse.run(75, "3600", 19);
 insertReponse.run(76, "3200", 19);
 
-// Question 20 - Bonne réponse : "La pomme" (ID 79)
+// Question 20 - Bonne réponse : "La noix de coco" (ID 79)
 insertQuestion.run(20, "Quel fruit flotte toujours sur l'eau, même s'il est coupé en deux ?", 80);
 insertReponse.run(77, "La banane", 20);
 insertReponse.run(78, "L'orange", 20);
@@ -190,10 +190,10 @@ insertReponse.run(82, "Allemagne", 21);
 insertReponse.run(83, "Pays-Bas", 21);
 insertReponse.run(84, "Belgique", 21);
 
-// Question 22 - Bonne réponse : "Authentification à deux facteurs" (ID 86)
+// Question 22 - Bonne réponse : "Authentification à doubles facteurs" (ID 86)
 insertQuestion.run(22, "Que signifie \"A2F\" en sécurité informatique ?", 86);
 insertReponse.run(85, "Analyse à deux fréquences", 22);
-insertReponse.run(86, "Authentification à deux facteurs", 22);
+insertReponse.run(86, "Authentification à doubles facteurs", 22);
 insertReponse.run(87, "Accès à deux fichiers", 22);
 insertReponse.run(88, "Autorisation à double flux", 22);
 
